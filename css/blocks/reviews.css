@@ -1,0 +1,65 @@
+
+.reviews {
+  
+}
+
+.reviews .section-title {
+  text-align: left;
+  letter-spacing: 2.6px;
+  line-height: 24px;
+  padding-left: 11px;
+}
+
+.reviews__list {
+
+}
+
+.reviews__item {
+  display: flex;
+  border-bottom: 2px solid #f5f5f5;
+  padding: 19px 0 24px 0;
+  margin-bottom: 7px;
+}
+
+.reviews__list .reviews__item:last-child {
+  border-bottom: none;
+  padding-top: 24px;
+}
+
+.reviews__image-wrapper {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 4px 20px 0 12px;
+  background-image: url(../../img/logo-fig-rewiews.png);
+  background-repeat: no-repeat;
+  background-position: 55% 46%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.reviews__image {
+  width: 160px;
+  height: 160px;
+}
+
+.reviews__user-block {
+  width: 77%;
+}
+
+.reviews__time {
+  color: #6f6e6e;
+  display: block;
+}
+
+.reviews__author-name {
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.reviews__text {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}

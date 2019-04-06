@@ -1,0 +1,37 @@
+
+.footer {
+  background-color: #131415;
+  background-repeat: repeat;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer__item {}
+
+.author-info {
+  width: 27%;
+}
+
+.author-info__text {
+  padding: 11px 6px 0 0px;
+  margin: 0;
+}
+
+.author-info__partner-link {
+  font-weight: bold;
+  text-decoration-color: #74747f;
+  color: inherit;
+  cursor: pointer;
+}
+
+.author-info__author {
+  margin: 0;
+  padding-bottom: 14px;
+}
+
+.footer-logo {
+  width: 22%;
+}

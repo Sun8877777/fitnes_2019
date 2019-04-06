@@ -1,0 +1,16 @@
+
+.logo {
+  width: 180px;
+  height: 76px;
+  padding-top: 11px;
+  margin-right: auto;
+  cursor: pointer;
+}
+.logo__link {
+  font-family: 'Gora Free', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 3em;
+  color: #f89513;
+  letter-spacing: 2px;
+  text-decoration: none;
+}

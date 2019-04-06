@@ -1,0 +1,62 @@
+
+.paginator {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0 auto;
+  padding-right: 199px;
+  padding-bottom: 69px;
+}
+
+.paginator__label {
+  padding: 14px 0 0 30px;
+}
+
+.paginator__controls {
+  display: inline-flex;
+  padding: 14px 0 0 19px;
+}
+
+.paginator__prev-link,
+.paginator__next-link {
+  text-decoration: none;
+}
+
+.paginator__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: -5px 15px;
+}
+
+.paginator__link {
+  display: block;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  margin-left: 1px;
+}
+
+.paginator__link--active {
+  background-color: #27273e;
+  color: #f89513;
+}
+
+.paginator__link:hover {
+  background-color: #000000;
+  color: #f89513
+}
+
+.wrapper--reviews .paginator {
+  width: 82%;
+}
+
+.wrapper--reviews .paginator__label {
+  padding: 14px 0 0 3px;
+}
+
+.wrapper--reviews .paginator__list {
+  margin: -3px 5px 0 14px;
+}

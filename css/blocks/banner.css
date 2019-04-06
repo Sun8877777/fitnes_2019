@@ -1,0 +1,10 @@
+.banner {
+  padding-bottom: 41px;
+}
+
+.banner__image {
+  background-image: url(../../img/main-banner.png);
+  background-repeat: no-repeat;
+  background-position: center 79px;
+  min-height: 582px;
+}

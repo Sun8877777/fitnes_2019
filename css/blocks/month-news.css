@@ -1,0 +1,42 @@
+.month-news {
+  margin-right: -2px;
+}
+.month-news__title {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+.month-news__month-name {
+  font-size: 12px;
+  line-height: 0px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+  color: #737272;
+}
+.month-news__list {
+  
+}
+.month-news__item {
+  margin-bottom: 20px;
+}
+.month-news__link {
+  width: 160px;
+  height: 160px;
+  display: block;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.month-news__item:first-child .month-news__link {
+  width: 160px;
+  height: 121px;
+}
+.month-news__link:hover {
+  opacity: 1;
+}
+.month-news__image {
+  
+}

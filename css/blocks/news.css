@@ -1,0 +1,67 @@
+
+
+.news {}
+
+.news__list {
+  font-family: "Roboto", "Arial", sans-serif;
+  padding-top: 4px;
+  padding-bottom: 38px;
+}
+
+.news__item {
+  display: flex;
+  padding: 26px 0 18px 0;
+}
+.news__item:first-child {
+  padding: 30px 0;
+}
+
+.news__list .news__item:nth-child(2) {
+  border-bottom: 2px solid #f5f5f5;
+  border-top: 2px solid #f5f5f5;
+}
+
+.news__logo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  margin-top: 4px;
+  margin-right: 20px;
+  /* padding: 4px 0 0 2px; */
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.news__image {
+  background-image: url(../img/logo-fig-rewiews.png);
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  margin: -2px 0 0 -5px;
+}
+
+.news__info {
+  width: 79%;
+}
+
+.news__time {
+  color: #6f6e6e;
+  display: block;
+  padding: 2px 0 0 0px;
+}
+
+.news__head {
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.news__desc {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.news__item:not(:first-child) .news__desc {
+  padding-right: 90px;
+}
