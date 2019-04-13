@@ -1,9 +1,7 @@
 
 .feedback {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
-
-
 
 .feedback__form {
   padding-bottom: 40px;
@@ -37,7 +35,7 @@
 .feedback__form textarea:focus,
 .feedback__submit:focus {
   outline: 0;
-  box-shadow: 0 0 0 1px #ec1e79;
+  box-shadow: 0 0 0 1px #f89513;
 }
 
 .feedback__text-review {
@@ -60,7 +58,7 @@
   vertical-align: top;
   position: relative;
   margin-top: 3px;
-  margin-right: 13px;
+  margin-right: 16px;
   padding-left: 26px;
   cursor: pointer;
 }
@@ -77,7 +75,7 @@
 }
 
 .feedback__input-radio:checked+.feedback__label--radio::before {
-  border-color: #ec1e79;
+  border-color: #f89513;
 }
 
 .feedback__input-radio:checked+.feedback__label--radio::after {
@@ -87,13 +85,13 @@
   left: 6px;
   width: 10px;
   height: 10px;
-  background-color: #ec1e79;
+  background-color: #f89513;
   border-radius: 50%;
 }
 
 .feedback__submit {
   height: 46px;
-  width: 140px;
+  width: 125px;
   box-sizing: border-box;
   margin-top: 9px;
   border: none;
@@ -105,9 +103,10 @@
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  transition: 300ms;
 }
 
 .feedback__submit:hover {
-  background-color: #ec1e79;
+  background-color: #f89513;
 }

@@ -30,10 +30,11 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: 500ms;
 }
 
 .info-company__text:hover {
-  color: #769dcd;
+  color: #b9b9b9;
 }
 
 .info-company__shedule-list {

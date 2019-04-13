@@ -29,6 +29,7 @@
   display: block;
   overflow: hidden;
   opacity: 0.8;
+  transition: 500ms;
 }
 .month-news__item:first-child .month-news__link {
   width: 160px;

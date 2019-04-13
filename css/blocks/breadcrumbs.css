@@ -7,5 +7,8 @@
   color: #f06499;
   padding-left: 16px;
 }
+.wrapper--services .breadcrumbs__link {
+  padding-left: 3px;
+}
 
 .breadcrumbs__text {}

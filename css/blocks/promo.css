@@ -1,7 +1,7 @@
 .promo {
-  background-image: url('../img/reviews-!.png');
+  background-image: url('/img/reviews-!.png');
   background-repeat: repeat;
-  background-color: #27273e;
+  background-color: #131415;
   margin-bottom: 58px;
 }
 
@@ -9,10 +9,10 @@
   font-size: 18px;
   line-height: 30px;
   color: #ffffff;
-  padding: 40px 242px 44px 232px;
+  padding: 2% 20% 2.8% 18.5%;
 }
 
 .promo__privilege {
-  color: #ec1e79;
+  color: #f89513;
   font-weight: bold;
 }

@@ -13,4 +13,9 @@
   color: #f89513;
   letter-spacing: 2px;
   text-decoration: none;
+  transition: 500ms;
+}
+.logo__link:hover {
+  font-size: 28px;
+  line-height: 1.5em;
 }

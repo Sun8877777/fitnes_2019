@@ -1,9 +1,9 @@
-
 .nav {
-  /* width: 700px; */
+ 
 }
 
 .nav__list {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
@@ -23,8 +23,9 @@
   letter-spacing: 1px;
   line-height: 49px;
   color: #ffffff;
-  padding: 15px 25px 12px 38px;
+  padding: 17px 25px 10px 38px;
   cursor: pointer;
+  transition: 500ms;
 }
 .nav__item:last-child {
   margin-right: 0;
@@ -33,7 +34,7 @@
 .nav__link::before {
   content: "";
   position: absolute;
-  top: 28px;
+  top: 31px;
   left: 0px;
   width: 24px;
   height: 22px;
@@ -45,7 +46,7 @@
 .nav__link::after {
   content: "";
   position: absolute;
-  top: 28px;
+  top: 31px;
   left: 0px;
   width: 24px;
   height: 22px;
@@ -58,100 +59,82 @@
 .nav__list .nav__link-main::before {
   background-position: -166px -5px;
 }
+.nav__list .nav__link-main::after {
+  background-position: -205px -5px;
+}
 
 .nav__list .nav__link-review::before {
   background-position: -320px -8px;
+}
+.nav__list .nav__link-review::after {
+  background-position: -400px -8px;
 }
 
 .nav__list .nav__link-services::before {
   background-position: -244px -5px;
 }
-/* main  after */
-.nav__list .nav__link-main::after {
-  background-position: -205px -5px;
-}
-
-.nav__list .nav__link-review::after {
-  background-position: -400px -8px;
-}
-
 .nav__list .nav__link-services::after {
   background-position: -283px -5px;
 }
-/* main active */
-.nav__list .nav__link--active:hover {
-  color: #ffffff;
+
+/*reviews*/
+
+.wrapper--reviews .nav__link--active::before {
+  background-position: -321px -8px;
 }
-.nav__list .nav__link--active:hover::before {
-  opacity: 1;
+
+.wrapper--reviews .nav__link-main::before {
+  background-position: -167px -5px;
 }
-.nav__list .nav__link--active:hover::after {
-  opacity: 0;
+.wrapper--reviews .nav__link-main::after {
+  background-position: -206px -5px;
+}
+.wrapper--reviews .nav__link-services::before {
+  background-position: -245px -5px;
+}
+
+.wrapper--reviews .nav__link-services::after {
+  background-position: -284px -5px;
+}
+
+
+/* services */
+
+.wrapper--services .nav__link--active::before {
+  background-position: -244px -5px;
+}
+
+.wrapper--services .nav__link-main::before {
+  background-position: -167px -5px;
+}
+.wrapper--services .nav__link-main::after {
+  background-position: -206px -5px;
+}
+
+.wrapper--services .nav__link-review::before {
+  background-position: -320px -8px;
+}
+.wrapper--services .nav__link-review::after {
+  background-position: -400px -8px;
 }
 
 .nav__link:hover {
   color: #f89513;
 }
 
-.nav__link:hover::before {
+.nav__list .nav__link:hover::before {
   opacity: 0;
 }
-
-.nav__link:hover::after {
+.nav__list .nav__link:hover::after {
   opacity: 1;
 }
-
-.nav__link--active {
-  /* color: #000000; */
+.nav__link--active:hover {
+  color: #ffffff;
 }
 
-/*reviews*/
-
-.wrapper--reviews .nav__link--active::before {
-  background-position: -20px -3px;
+.nav__list .nav__link--active:hover::before {
+  opacity: 1;
 }
-
-.wrapper--reviews .nav__link-main::before {
-  background-position: -127px -3px;
+.nav__list .nav__link--active:hover::after {
+  opacity: 0;
 }
-
-.wrapper--reviews .nav__link-tarif::before {
-  background-position: -253px -3px;
-}
-
-.wrapper--reviews .nav__link-tarif:hover::after {
-  background-position: -224px -3px;
-}
-
-.wrapper--reviews .nav__link-main:hover::after {
-  background-position: -154px -3px;
-}
-/* services */
-
-.wrapper--tarifs .nav__link--active::before {
-  background-position: -224px -3px;
-}
-.wrapper--tarifs .nav__link--active:hover::after {
-  background-position: -224px -3px;
-}
-.wrapper--tarifs .nav__link-tarif::before {
-  background-position: -224px -3px;
-}
-.wrapper--tarifs .nav__link-tarif:hover::after {
-  background-position: -224px -3px;
-}
-
-.wrapper--tarifs .nav__link-main::before {
-  background-position: -127px -3px;
-}
-.wrapper--tarifs .nav__link-main:hover::after {
-  background-position: -154px -3px;
-}
-
-.wrapper--tarifs .nav__link-review::before {
-  background-position: -50px -3px;
-}
-.wrapper--tarifs .nav__link-review:hover::after {
-  background-position: -20px -3px;
-}
-

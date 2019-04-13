@@ -37,6 +37,7 @@
   cursor: pointer;
   padding: 4px 8px;
   margin-left: 1px;
+  transition: 300ms;
 }
 
 .paginator__link--active {
@@ -50,11 +51,12 @@
 }
 
 .wrapper--reviews .paginator {
-  width: 82%;
+  width: 80%;
+  padding-bottom: 43px;
 }
 
 .wrapper--reviews .paginator__label {
-  padding: 14px 0 0 3px;
+  padding: 17px 0 0 3px;
 }
 
 .wrapper--reviews .paginator__list {

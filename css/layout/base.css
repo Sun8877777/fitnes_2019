@@ -49,7 +49,9 @@ ul li {
   display: flex;
   flex-direction: column;
 }
-
+a {
+  color: inherit;
+}
 .main {
   flex: 1 0 auto;
 }
@@ -104,27 +106,31 @@ ul li {
 
 .wrapper--reviews .main-content {
   margin: 0 80px;
+  padding-bottom: 0;
   width: 100%;
 }
 
 .wrapper--reviews .section-title--feedback {
+  text-align: left;
   padding-left: 69px;
-  padding-top: 63px;
-  letter-spacing: -0.5px;
+  padding-top: 67px;
+  letter-spacing: 0px;
   line-height: 8px;
+  text-transform: none;
 }
 
-.wrapper--tarifs .main-content {
-  padding-top: 41px;
-  padding-bottom: 39px;
+.wrapper--services .main-content {
+  width: 100%;
+  margin: 18px 90px;
+  padding-bottom: 19px;
 }
 
-.wrapper--tarifs .section-title {
+.wrapper--services .section-title {
+  text-align: left;
   line-height: 23px;
-  padding-left: 2px;
 }
 
-.wrapper--tarifs .section-title--partners {
+.wrapper--services .section-title--partners {
   padding-left: 11px;
   padding-bottom: 8px;
   line-height: 11px;

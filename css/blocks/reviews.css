@@ -27,20 +27,39 @@
 }
 
 .reviews__image-wrapper {
+  position: relative;
   display: block;
   width: 160px;
   height: 160px;
   margin: 4px 20px 0 12px;
-  background-image: url(../../img/logo-fig-rewiews.png);
-  background-repeat: no-repeat;
-  background-position: 55% 46%;
+  
   border-radius: 50%;
   overflow: hidden;
 }
+.reviews__image-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/logo-fig-rewiews.png);
+  background-repeat: no-repeat;
+  background-position: 55% 46%;
+  background-size: 59% 71%;
+  opacity: 0.2;
+  filter: grayscale(1);
+  z-index: 1;
+  transition: 500ms;
+}
+.reviews__item:hover .reviews__image-wrapper::before {
+  opacity: 1;
+  filter: grayscale(0);
+}
 
 .reviews__image {
-  width: 160px;
-  height: 160px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 10;
 }
 
 .reviews__user-block {
