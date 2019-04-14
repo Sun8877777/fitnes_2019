@@ -22,15 +22,10 @@
   align-items: center
 }
 
-.intro__logo {
+.intro__image {
   width: 160px;
   height: 193px;
   margin-bottom: 38px;
-}
-
-.intro__image {
-  width: 100%;
-  height: auto;
 }
 
 .intro__link {

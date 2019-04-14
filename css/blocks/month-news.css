@@ -9,6 +9,8 @@
   padding-top: 25px;
 }
 .month-news__month-name {
+  display: block;
+  padding-top: 12px;
   font-size: 12px;
   line-height: 0px;
   font-weight: bold;

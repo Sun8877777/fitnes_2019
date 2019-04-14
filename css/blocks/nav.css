@@ -23,7 +23,7 @@
   letter-spacing: 1px;
   line-height: 49px;
   color: #ffffff;
-  padding: 17px 25px 10px 38px;
+  padding: 16px 25px 11px 38px;
   cursor: pointer;
   transition: 500ms;
 }
@@ -34,7 +34,7 @@
 .nav__link::before {
   content: "";
   position: absolute;
-  top: 31px;
+  top: 30px;
   left: 0px;
   width: 24px;
   height: 22px;
@@ -46,7 +46,7 @@
 .nav__link::after {
   content: "";
   position: absolute;
-  top: 31px;
+  top: 30px;
   left: 0px;
   width: 24px;
   height: 22px;

@@ -51,6 +51,10 @@ ul li {
 }
 a {
   color: inherit;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
 }
 .main {
   flex: 1 0 auto;

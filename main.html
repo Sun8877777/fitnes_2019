@@ -12,30 +12,27 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
-        <div class="header__wrap">
-          <div class="logo">
-            <a class="logo__link" title="Афродита">Афродита</a>
-          </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item"><a class="nav__link nav__link-main nav__link--active">Главная</a></li>
-              <li class="nav__item"><a href="reviews.html" class="nav__link nav__link-review">Отзывы</a></li>
-              <li class="nav__item"><a href="services.html" class="nav__link nav__link-services">Услуги</a></li>
-            </ul>
-          </nav>
-          <div class="info-company">
-            <a href="tel:+78000039210" class="info-company__phone-num">8 (800) 00-392-10</a>
-            <div class="info-company__shedule">
-              <button type="button" class="info-company__text">График работы</button>
-              <div class="info-company__shedule-list">
-                <span class="info-company__shedule-item">пн-вс: 09:00-20:00</span>
-                <span class="info-company__shedule-item">обед: 14:00-14:30</span>
-              </div>
+      <div class="container container--flex">
+        <div class="logo">
+          <a class="logo__link" title="Афродита">Афродита</a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link nav__link-main nav__link--active">Главная</a></li>
+            <li class="nav__item"><a href="reviews.html" class="nav__link nav__link-review">Отзывы</a></li>
+            <li class="nav__item"><a href="services.html" class="nav__link nav__link-services">Услуги</a></li>
+          </ul>
+        </nav>
+        <div class="info-company">
+          <a href="tel:+78000039210" class="info-company__phone-num">8 (800) 00-392-10</a>
+          <div class="info-company__shedule">
+            <button type="button" class="info-company__text">График работы</button>
+            <div class="info-company__shedule-list">
+              <span class="info-company__shedule-item">пн-вс: 09:00-20:00</span>
+              <span class="info-company__shedule-item">обед: 14:00-14:30</span>
             </div>
           </div>
         </div>
-
       </div>
     </header>
     <main>
@@ -87,7 +84,7 @@
         <div class="container">
           <h2 class="section-title">Последние новости</h2>
           <div class="section-news__wrapper">
-            <section class="section-news__item news">
+            <div class="section-news__item news">
               <ul class="news__list">
                 <li class="news__item">
                   <figure class="news__logo">
@@ -147,10 +144,9 @@
                   <a href="#" class="paginator__next-link">&#62;</a>
                 </div>
               </div>
-            </section>
+            </div>
             <aside class="section-news__item  month-news">
-              <h3 class="month-news__title">Топ новостей</h3>
-              <p class="month-news__month-name">За сентябрь</p>
+              <h3 class="month-news__title">Топ новостей <span class="month-news__month-name">За сентябрь</span></h3>              
               <ul class="month-news__list">
                 <li class="month-news__item">
                   <a href="#" class="month-news__link">
